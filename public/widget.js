@@ -72,10 +72,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _widget2 = _interopRequireDefault(_widget);
 	
-	var _reactCssx = __webpack_require__(160);
-	
-	var _reactCssx2 = _interopRequireDefault(_reactCssx);
-	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	exports.default = {
@@ -88,15 +84,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	        }
 	    }
 	};
-	
-	// widgets: {
-	//    myWidget: {
-	//       render: (selector) => {
-	//           ReactDOM.render(
-	//               <Widget />, document.querySelector(selector);
-	//           );
-	//       }
-	//    }
 
 /***/ },
 /* 1 */
