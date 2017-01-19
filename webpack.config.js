@@ -1,10 +1,12 @@
 module.exports = {
-  entry: './src/widget.jsx',
+  entry: './src/index.jsx',
   devtool: 'source-map',
   output: {
     path: __dirname + '/public',
     filename: 'widget.js',
-    libraryTarget: 'umd'
+    library: 'Widgeto',
+    libraryTarget: 'umd',
+    umdNamedDefine: true
   },
   module: {
     loaders: [
